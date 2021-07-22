@@ -18,11 +18,11 @@
 */
 
 /*------------------------------|
-|								|
-|	By: RockoSx					|
-|	Released: 21/07/2021		|
-|	Version: 0.1.0				|
-|								|
+|				|
+|	By: RockoSx		|
+|	Released: 21/07/2021	|
+|	Version: 0.1.0		|
+|				|
 |-----------------------------*/
 
 
@@ -54,9 +54,9 @@
 
 #define INVALID_MESSAGE DCC_Message:0
 
-#define DCMD:%1(%2)			\
-		forward dcmd_%1(%2); \
-		public dcmd_%1(%2)
+#define DCMD:%1(%2)\
+	forward dcmd_%1(%2);\
+	public dcmd_%1(%2)
 
 //--------------------------------------------------
 forward OnCreatedPrivateChannel(const message[]); //You may not use this callback, use SendPrivateMessage instead.
@@ -114,7 +114,6 @@ stock bool:IsPrivateChannel(){
 stock bool:IsValidMessage(DCC_Message:message){
 	new msg[DCC_MAX_MESSAGE];
 	DCC_GetMessageContent(message, msg);
-	printf("\"%s\"", msg);
 	if(!isnull(msg)) return true;
 	else return false;
 }
