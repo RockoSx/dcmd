@@ -10,7 +10,7 @@ Special thanks to: <br>
 - Prework<br>
 Before install DCMD you need to install samp-discord-connector.
 https://github.com/maddinat0r/samp-discord-connector
-Please, make sure to include your bot's token line in server.cfg.<br>
+Please, make sure to include your bot token line in server.cfg.<br>
 Also you need the include y_va.inc from Y_less
 https://github.com/pawn-lang/YSI-Includes
 
