@@ -1,0 +1,5 @@
+{
+    "entry": "test.pwn",
+    "output": "test.amx",
+    "dependencies": ["maddinat0r/samp-discord-connector", "YSI_Coding/y_va"]
+  }

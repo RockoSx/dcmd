@@ -18,11 +18,11 @@
 */
 
 /*------------------------------|
-|								|
-|	By: RockoSx					|
-|	Released: 21/07/2021		|
-|	Version: 0.1.1				|
-|								|
+|				|
+|	By: RockoSx		|
+|	Released: 21/07/2021	|
+|	Version: 0.1.1		|
+|				|
 |-----------------------------*/
 #if defined _dcmd_include
 	#endinput
