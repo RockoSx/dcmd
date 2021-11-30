@@ -1,5 +1,12 @@
 {
-    "entry": "test.pwn",
-    "output": "test.amx",
-    "dependencies": ["maddinat0r/samp-discord-connector", "YSI_Coding/y_va"]
-  }
+	"user": "RockoSchultz",
+	"repo": "dcmd",
+	"entry": "test.pwn",
+	"output": "test.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib"
+	],
+	"runtime": {
+		"mode": "y_testing"
+	}
+}
