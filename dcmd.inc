@@ -256,7 +256,7 @@ public DCC_OnMessageCreate(DCC_Message:message)
             strmid(params, cmd, index, len, sizeof(params));
         }
 
-        printf("CMD:%s(%s)", fname, params);
+        //printf("CMD:%s(%s)", fname, params);
 
         if (dcmd_hasODCR && !CallLocalFunction("OnDiscordCommandReceived", "sd", cmd, _:message))
         {
