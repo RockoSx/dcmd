@@ -1,5 +1,5 @@
 # dcmd
-DCMD is a command handler for discord-connector that gives you more control in your commands.
+DCMD is a command handler for discord-connector, similar to ZCMD this handler gives you more control in your commands.
 
 Special thanks to: <br>
  maddinat0r - Author of discord-connector https://github.com/maddinat0r/samp-discord-connector<br>
@@ -11,7 +11,8 @@ Special thanks to: <br>
 Before install DCMD you need to install samp-discord-connector.
 https://github.com/maddinat0r/samp-discord-connector
 Please, make sure to include your bot token line in server.cfg.<br>
-Also you need the include y_va.inc from Y_less
+Optional: using the include y_va.inc from Y_less can enable the use of format in functions like
+`SendDiscord(DCC_Channel:channel, const text[], {Float, _}:...)` or `SendPrivateMessage(DCC_User:user, const message[], {Float, _}:...)`
 https://github.com/pawn-lang/YSI-Includes
 
 - Installation of DCMD<br>
